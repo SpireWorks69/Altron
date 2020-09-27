@@ -6,9 +6,7 @@ import java.util.List;
 public abstract class Matrix<E> {
     protected List<List<E>> elementList;
 
-    public void addRow(E[] array) {
-        elementList.add(Arrays.asList(array));
-    }
+    public abstract void addRow(E[] array);
 
     @Override
     public String toString() {
