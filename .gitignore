@@ -1,0 +1,6 @@
+/.idea/
+
+/Application/AltronLib/target/
+/Application/AltronWeb/target/
+
+*.iml
