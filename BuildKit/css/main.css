@@ -1,0 +1,34 @@
+body {
+    background-color: #333333;
+}
+
+#area {
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    background-color: white;
+}
+
+#input {
+    display: block;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: -1000px;
+    margin: auto;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#label {
+    display: block;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: -50px; right: 0; bottom: 0; left: -1040px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+}
