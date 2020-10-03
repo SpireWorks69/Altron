@@ -3,7 +3,7 @@ package ru.spireworks.altron.matrix;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayMatrix<E> extends Matrix<E> {
+public class ArrayMatrix<E extends Number> extends Matrix<E> {
     public ArrayMatrix() {
         elementList = new ArrayList<>();
     }

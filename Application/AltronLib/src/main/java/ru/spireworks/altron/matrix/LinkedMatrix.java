@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.stream.Collectors;
 
-public class LinkedMatrix<E> extends Matrix<E> {
+public class LinkedMatrix<E extends Number> extends Matrix<E> {
     public LinkedMatrix() {
         elementList = new LinkedList<>();
     }
